@@ -12,6 +12,7 @@
 		031317D927DE939700BA1B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031317D827DE939700BA1B20 /* Assets.xcassets */; };
 		031317DC27DE939700BA1B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031317DA27DE939700BA1B20 /* LaunchScreen.storyboard */; };
 		031317E627DE989900BA1B20 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031317E527DE989900BA1B20 /* LoginView.swift */; };
+		034BF89A27EEAD5F00C31DF3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BF89927EEAD5F00C31DF3 /* OnboardingViewController.swift */; };
 		03B4A46727EA956B0068AFD1 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B4A46627EA956B0068AFD1 /* OnboardingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		031317DB27DE939700BA1B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		031317DD27DE939700BA1B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		031317E527DE989900BA1B20 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		034BF89927EEAD5F00C31DF3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		03B4A46627EA956B0068AFD1 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +58,9 @@
 		031317CE27DE939600BA1B20 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				031317E427DE986F00BA1B20 /* Login */,
 				03B4A46527EA95350068AFD1 /* Onboarding */,
 				031317E327DE981D00BA1B20 /* Uninteresting Files */,
-				031317E427DE986F00BA1B20 /* Login */,
 				031317CF27DE939600BA1B20 /* AppDelegate.swift */,
 			);
 			path = BankApp;
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				03B4A46627EA956B0068AFD1 /* OnboardingContainerViewController.swift */,
+				034BF89927EEAD5F00C31DF3 /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				031317E627DE989900BA1B20 /* LoginView.swift in Sources */,
 				031317D427DE939600BA1B20 /* LoginViewController.swift in Sources */,
+				034BF89A27EEAD5F00C31DF3 /* OnboardingViewController.swift in Sources */,
 				031317D027DE939600BA1B20 /* AppDelegate.swift in Sources */,
 				03B4A46727EA956B0068AFD1 /* OnboardingContainerViewController.swift in Sources */,
 			);
